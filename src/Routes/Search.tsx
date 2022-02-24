@@ -42,7 +42,7 @@ const Search = () => {
             </SearchResult>
             <Wrapper>
                 {data?.results.map((data, index) => {
-                    if (data.media_type !== "tv" && data.media_type !== "movie") {
+                    if (data.media_type !== "movie") {
                         return;
                     }
                     if (data.poster_path === null) {

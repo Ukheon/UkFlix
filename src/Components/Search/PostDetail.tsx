@@ -17,7 +17,7 @@ const PostDetail = ({ id, type, keyword }: IPostDetail) => {
     );
     const loading = isLoading || videoLoading;
     if (loading) <div></div>;
-    console.log(data);
+
     return <MovieDetail movieId={id + ""} unique="post" from="search" keyword={keyword} type={type}></MovieDetail>;
 };
 

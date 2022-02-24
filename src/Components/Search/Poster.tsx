@@ -15,7 +15,6 @@ const Poster = ({ data, keyword, id }: IPoster) => {
     const title = data.original_title || data.name || data.title;
     const history = useNavigate();
     const PostClick = (id: number) => {
-        console.log("post Click");
         history(`/search?keyword=${keyword}&id=${id}`);
     };
     const SelectClick = (event: React.MouseEvent<HTMLDivElement>) => {
@@ -25,7 +24,6 @@ const Poster = ({ data, keyword, id }: IPoster) => {
     return (
         <AnimatePresence>
             <PostImage
-                layoutId={id + "post"}
                 onClick={() => PostClick(data.id)}
                 whileHover={{ scale: 1.2, zIndex: 1 }}
                 bgimage={makeImage(data.poster_path, "w500")}
