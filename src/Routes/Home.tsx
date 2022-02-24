@@ -6,12 +6,12 @@ import { useState } from "react";
 
 const ItemList = [
     {
-        title: "학습 2022.02.07 ~ 2022.02.25",
-        text: "ReactQuery, ReactRouterDom-V6\n React-Player, *Recoil*, useForm\n Framer-Motion & React-beautiful-dnd: Awesome!\n CSS vw, vh, linear-gradation styled-component Theme: 너무좋았다.\n ApexChart&React-Helmet: coming soon?\n Typescript: 힘들다.",
+        title: "2022.02.07 ~ 2022.02.25",
+        text: "ReactQuery** ReactRouterDom-V6***\n React-Player* ***Recoil*** useForm***\n Framer-Motion***  React-beautiful-dnd*\n ApexChart* React-Helmet*?\n Typescript..",
     },
     {
-        title: "NormadCoder",
-        text: "클론코딩에서 많은것을 배웠습니다.\n실제로 사용할 수 있는 여러 방법을 배우게됩니다.",
+        title: "Thanks NormadCoder",
+        text: "혼자 공부하며 진행한 프로젝트에서\n 답답했던 많은 부분들이 해결 되었습니다.\n감사합니다!",
     },
 ];
 
