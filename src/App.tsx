@@ -11,7 +11,7 @@ import styled from "styled-components";
 
 function App() {
     return (
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
             <Header />
             <Routes>
                 <Route path={"/"} element={<Home></Home>}></Route>
