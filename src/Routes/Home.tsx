@@ -7,12 +7,8 @@ import { useState } from "react";
 const ItemList = [
     {
         title: "2022.02.07 ~ 2022.02.25",
-        text: "ReactQuery** ReactRouterDom-V6***\n React-Player* ***Recoil*** useForm***\n Framer-Motion***  React-beautiful-dnd*\n ApexChart* React-Helmet*?\n Typescript..",
-    },
-    {
-        title: "Thanks NormadCoder",
-        text: "혼자 공부하며 진행한 프로젝트에서\n 답답했던 많은 부분들이 해결 되었습니다.\n감사합니다!",
-    },
+        text: "ReactQuery ReactRouterDom-V6\n React-Player Recoil useForm\n Framer-Motion  React-beautiful-dnd\n ApexChart React-Helmet\n Typescript",
+    }
 ];
 
 const Home = () => {
