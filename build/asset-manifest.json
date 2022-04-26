@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/UkFlix/static/js/main.b4a84aeb.js",
+    "main.js": "/UkFlix/static/js/main.45a009ab.js",
     "index.html": "/UkFlix/index.html",
-    "main.b4a84aeb.js.map": "/UkFlix/static/js/main.b4a84aeb.js.map"
+    "main.45a009ab.js.map": "/UkFlix/static/js/main.45a009ab.js.map"
   },
   "entrypoints": [
-    "static/js/main.b4a84aeb.js"
+    "static/js/main.45a009ab.js"
   ]
 }
